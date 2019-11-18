@@ -1,0 +1,29 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+}
+
+.logo {
+   position: fixed;
+      top: 6%;
+      left: 14%;
+}
+
+video { 
+      position: fixed;
+      top: 0%;
+      left: 50%;
+      min-width: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+}
+
+.background {
+   position: fixed;
+   top: 22%;
+   left: 0%;
+
+}
